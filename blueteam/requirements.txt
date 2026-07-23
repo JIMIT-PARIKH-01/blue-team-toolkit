@@ -1,0 +1,6 @@
+# No third-party packages required.
+# The whole toolkit (password analyzer, secret scanner, file-integrity monitor,
+# log analyzer, GUI, CLI) uses only the Python standard library.
+#
+# Requirements:
+#   - Python 3.8+
