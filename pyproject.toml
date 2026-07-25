@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blue-team-toolkit"
+version = "1.0.0"
+description = "Defensive toolkit: password audit, secret scanner, file integrity, log analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Jimit Devangkumar Parikh" }]
+
+[project.urls]
+Homepage = "https://github.com/JIMIT-PARIKH-01/blue-team-toolkit"
+
+[project.scripts]
+blueteam = "blueteam.cli:main"
+
+[tool.setuptools]
+packages = ["blueteam"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

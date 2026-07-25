@@ -1,5 +1,8 @@
 # Blue Team Toolkit
 
+[![CI](https://github.com/JIMIT-PARIKH-01/blue-team-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/JIMIT-PARIKH-01/blue-team-toolkit/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
 A **dependency-free** defensive security toolkit — four tools in one, with a
 **GUI and a CLI**. The counterpart to offensive/recon tooling: this is about
 **protecting** systems and catching your own mistakes.
