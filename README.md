@@ -16,6 +16,8 @@ Built on the Python standard library only (`hashlib`, `re`, `json`).
 
 ---
 
+![demo](docs/demo.png)
+
 ## Install & run
 
 Just **Python 3.8+** — nothing to install.
